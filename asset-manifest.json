@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/sandravinod/static/css/main.5a1707e9.css",
-    "main.js": "/sandravinod/static/js/main.9155328c.js",
+    "main.js": "/sandravinod/static/js/main.2c757782.js",
     "static/js/453.acca0757.chunk.js": "/sandravinod/static/js/453.acca0757.chunk.js",
     "static/media/profile.png": "/sandravinod/static/media/profile.3b5d2f821c26d6159e7c.png",
     "static/media/mysql.png": "/sandravinod/static/media/mysql.167c88550478e6f0f85c.png",
@@ -17,11 +17,11 @@
     "static/media/python.png": "/sandravinod/static/media/python.f1a07429fcf04073a41e.png",
     "index.html": "/sandravinod/index.html",
     "main.5a1707e9.css.map": "/sandravinod/static/css/main.5a1707e9.css.map",
-    "main.9155328c.js.map": "/sandravinod/static/js/main.9155328c.js.map",
+    "main.2c757782.js.map": "/sandravinod/static/js/main.2c757782.js.map",
     "453.acca0757.chunk.js.map": "/sandravinod/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5a1707e9.css",
-    "static/js/main.9155328c.js"
+    "static/js/main.2c757782.js"
   ]
 }
