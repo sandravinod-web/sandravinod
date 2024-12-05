@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sandravinod/static/css/main.5a1707e9.css",
+    "main.js": "/sandravinod/static/js/main.2c757782.js",
+    "static/js/453.acca0757.chunk.js": "/sandravinod/static/js/453.acca0757.chunk.js",
+    "static/media/profile.png": "/sandravinod/static/media/profile.3b5d2f821c26d6159e7c.png",
+    "static/media/mysql.png": "/sandravinod/static/media/mysql.167c88550478e6f0f85c.png",
+    "static/media/gab.jpg": "/sandravinod/static/media/gab.409a20f255f83491a5fd.jpg",
+    "static/media/monarch.jpg": "/sandravinod/static/media/monarch.c1e051c1dd554b300d8c.jpg",
+    "static/media/domaine.jpg": "/sandravinod/static/media/domaine.f4924f30fd29cb8f9d12.jpg",
+    "static/media/positive.jpg": "/sandravinod/static/media/positive.c96c1b3ef49d65165461.jpg",
+    "static/media/vision.jpg": "/sandravinod/static/media/vision.f0f970756dea2687c9d2.jpg",
+    "static/media/chrono.jpg": "/sandravinod/static/media/chrono.c49d4e38334fdbedac0f.jpg",
+    "static/media/bootstrap.png": "/sandravinod/static/media/bootstrap.cb0fcc269e8250f3551b.png",
+    "static/media/Sandra_V-Resume.pdf": "/sandravinod/static/media/Sandra_V-Resume.47d5bab70697affb5d73.pdf",
+    "static/media/django.png": "/sandravinod/static/media/django.4c399895f677cd3bfbc8.png",
+    "static/media/python.png": "/sandravinod/static/media/python.f1a07429fcf04073a41e.png",
+    "index.html": "/sandravinod/index.html",
+    "main.5a1707e9.css.map": "/sandravinod/static/css/main.5a1707e9.css.map",
+    "main.2c757782.js.map": "/sandravinod/static/js/main.2c757782.js.map",
+    "453.acca0757.chunk.js.map": "/sandravinod/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a1707e9.css",
+    "static/js/main.2c757782.js"
+  ]
+}
