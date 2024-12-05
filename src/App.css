@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #1e1e2f;
+  color: #fff;
+}
+
+header {
+  background: #111;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 50px;
+  text-align: center;
+}
+
+.home h1 span {
+  color: #a463f2;
+}
+
+.tech-stack img {
+  width: 50px;
+  margin: 10px;
+}
+
+.footer {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+}

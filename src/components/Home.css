@@ -1,0 +1,82 @@
+.home {
+    background: linear-gradient(145deg, #1e1e2f, #1b1b29);
+    color: #fff;
+    padding: 70px 10px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .home h1 {
+    font-size: 4em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .home h1 .function {
+    color: #a463f2;
+  }
+  
+  .home h1 .name {
+    color: #a463f2;
+  }
+  
+  .home h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .description {
+    font-size: 1.2em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    color: #bbb;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .cta {
+    background: linear-gradient(145deg, #a463f2, #7f4dcc);
+    border: none;
+    padding: 15px 30px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .cta:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .settings {
+    background: transparent;
+    border: 2px solid #a463f2;
+    padding: 15px;
+    color: #a463f2;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  
+  .settings:hover {
+    transform: rotate(20deg);
+    border-color: #7f4dcc;
+  }
+  
+  .gear-icon {
+    font-size: 1.5em;
+  }
+  

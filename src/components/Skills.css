@@ -1,0 +1,75 @@
+.skills {
+    background: linear-gradient(145deg, #1e1e2f, #252545);
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .skills h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #a463f2;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .divider {
+    width: 150px;
+    height: 2px;
+    background-color: #a463f2;
+    margin: 10px auto 30px;
+    border: none;
+  }
+  
+  .skills h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #ccc;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .tech-stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+ 
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .tech-item {
+    background: #292938;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px; /* Increased size for better visibility */
+    height: 120px; /* Increased size for better visibility */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .tech-item img {
+    width: 70%; /* Adjusting the size of logos */
+    height: auto;
+  }
+  
+  .tech-item:hover {
+    transform: scale(1.2); /* Larger scale effect */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .tech-stack {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .tech-stack {
+      grid-template-columns: 1fr;
+      gap: 15px;
+    }
+  }
+  

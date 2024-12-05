@@ -1,0 +1,136 @@
+.projects {
+  background: linear-gradient(145deg, #252545, #333);
+  color: #fff;
+  padding: 30px 20px;  /* Increased padding for better spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* Center the content horizontally */
+}
+
+.projects-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.projects h2 {
+  font-size: 3em;
+  color: #a463f2;
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.divider {
+  width: 150px;
+  height: 2px;
+  background-color: #a463f2;
+  margin: 10px auto 20px;
+  border: none;
+}
+
+.projects-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.project-card {
+  background: #292938;
+  border-radius: 15px;
+  padding: 0;  /* Removed padding for tighter layout */
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+}
+
+.project-image {
+  width: 100%;
+  height: 300px;  /* Increased image height */
+  object-fit: cover;
+  border-radius: 15px 15px 0 0; /* Rounded top corners */
+}
+
+.project-info {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-card h3 {
+  font-size: 1.8em;
+  margin: 10px 0;
+  color: #a463f2;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.project-card p {
+  font-size: 1.1em;
+  color: #ccc;
+  margin-bottom: 20px;
+}
+
+.project-card .live-view {
+  background: #a463f2;
+  color: #fff;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 30px;  /* Modern rounded button */
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: 'Courier New', Courier, monospace;
+  transition: background 0.3s, transform 0.3s;
+  align-self: flex-start; /* Align button to the left */
+}
+
+.project-card .live-view:hover {
+  background: #8a52e0;
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width: 768px) {
+  .projects-list {
+    grid-template-columns: repeat(2, 1fr); /* Switch to 2 columns on medium screens */
+    gap: 20px;
+  }
+
+  .project-card {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .projects-list {
+    grid-template-columns: 1fr; /* Switch to 1 column on small screens */
+    gap: 15px;
+  }
+
+  .projects h2 {
+    font-size: 2em;
+  }
+
+  .project-card h3 {
+    font-size: 1.5em;
+  }
+
+  .project-card p {
+    font-size: 1em;
+  }
+
+  .project-card .live-view {
+    padding: 10px 15px;
+    font-size: 1em;
+
+  }
+}
